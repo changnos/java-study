@@ -5,11 +5,20 @@
 	<groupId>com.poscodx</groupId>
 	<artifactId>java-study</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
-	<modules>
-		<module>chapter03</module>
-		<module>practice01</module>
-		<module>practice02</module>
-		<module>practice03</module>
-	</modules>
+	<packaging>jar</packaging>
+
+	<properties>
+		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+	</dependencies>
+
+	<build>
+		<finalName>practice03</finalName>
+	</build>
+	
+	
 </project>
