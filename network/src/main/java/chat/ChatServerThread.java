@@ -83,14 +83,14 @@ public class ChatServerThread extends Thread {
 
 		// 닉네임 중복 체크
 		boolean chk = true;
-		synchronized (nicknames) {
-			for (String nick : nicknames) {
-				if (nick.equals(nickName)) {
-					chk = false;
-					break;
-				}
-			}
-		}
+//		synchronized (nicknames) {
+//			for (String nick : nicknames) {
+//				if (nick.equals(nickName)) {
+//					chk = false;
+//					break;
+//				}
+//			}
+//		}
 
 		if (chk) {
 			this.nickname = nickName;

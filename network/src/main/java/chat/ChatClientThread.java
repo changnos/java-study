@@ -6,6 +6,8 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 import java.net.SocketException;
 
+import chat.gui.ChatWindow;
+
 public class ChatClientThread extends Thread {
 
 	private Socket socket;
