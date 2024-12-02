@@ -34,7 +34,7 @@ public class EchoClient {
 				}
 
 				pw.println(line);
-				
+
 				String data = br.readLine();
 				if (data == null) {
 					log("closed by server");

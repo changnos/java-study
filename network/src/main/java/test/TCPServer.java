@@ -19,7 +19,7 @@ public class TCPServer {
 			// 2. 바인딩 (binding)
 			// Socket에 InetSocketAddress[InetAddress(IPAddress) + post]를 바인딩 한다.
 			// IPAddress: 0.0.0.0: 특정 호스트 IP를 바인딩 하지 않는다.
-			serverSocket.bind(new InetSocketAddress("0.0.0.0", 50000));
+			serverSocket.bind(new InetSocketAddress("0.0.0.0", 51000));
 
 			// 3. accept
 			Socket socket = serverSocket.accept();// blocking
